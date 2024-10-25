@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(img/particles-7104407.jpg);
+    background-image: url(img/ai-6767497_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -24,14 +24,12 @@ header ul {
     display: flex;
     align-items: end;
     
-
 }
     
 
-
 header ul li {
     list-style: none;
-    
+    margin-right: 15px;
 }
 
 header ul li a {
@@ -42,12 +40,74 @@ header i {
     width: 300px;
 }
 
-.section1 div
+header img
 {
-
+    height: 100px;
+    width: 100px;
 }
 
-.img-lado{
-    height: 200px;
+
+.section1
+{
+    padding: 250px; 
+    display: flex; 
+    background-color: #cdc6df; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url(img/particles-7104407.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position:center; 
+    padding: 300px; 
+    color: aliceblue;
+}
+
+.section1 button
+{
+    width: 150px ; 
+    height: 45px; 
+    background-color: #808080; 
+    justify-content: center; 
+    color: rgb(245, 245, 245) ; 
+    border-color:#ffbfff ; 
+    box-shadow: 5px 5px 5px / #ca94fb; 
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+.section2
+{
+    padding:250px ; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    background-color:#121422 ; 
+    display: flex; 
+
+}
+/* Estilo do texto */
+
+.section2 p
+{
+    margin: 30px; 
+    font-weight: 300; 
+    font-size: 20px; 
+    color:#ffceff ; 
+}
+
+.img-lado
+{
     width: 200px;
+    height: auto;
+}
+
+footer
+{
+    padding: 50px;
+    text-align: left;
+    display: flex;
+}
+footer i 
+{
+    height: 200px;
+    width: auto;
 }
